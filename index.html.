@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nocturna Drinks</title>
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #FF00FF;
+            text-align: center;
+            text-shadow: 0 0 10px #FF00FF;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product {
+            background-color: #222;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 250px;
+        }
+        .product img {
+            width: 150px;
+            height: 150px;
+        }
+        .button {
+            background-color: #FF00FF;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .button:hover {
+            background-color: #FF77FF;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nocturna Drinks</h1>
+    <div class="products">
+        <div class="product">
+            <img src="your-product-image.jpg" alt="Bebida 1">
+            <h3>Bebida 1</h3>
+            <p>R$ 50,00</p>
+            <a href="link-de-pagamento" class="button">Comprar</a>
+        </div>
+        <div class="product">
+            <img src="your-product-image.jpg" alt="Bebida 2">
+            <h3>Bebida 2</h3>
+            <p>R$ 80,00</p>
+            <a href="link-de-pagamento" class="button">Comprar</a>
+        </div>
+    </div>
+</body>
+</html>
